@@ -42,9 +42,9 @@
 #include <cv_bridge/cv_bridge.h>
 #include <sensor_msgs/image_encodings.h>
 #include <aruco_ros/aruco_ros_utils.h>
-#include <aruco_msgs/MarkerArray.h>
+#include <aruco_msgs/msg/marker_array.hpp>
 #include <tf/transform_listener.h>
-#include <std_msgs/UInt32MultiArray.h>
+#include <std_msgs/msg/u_int32_multi_array.hpp>
 
 class ArucoMarkerPublisher
 {

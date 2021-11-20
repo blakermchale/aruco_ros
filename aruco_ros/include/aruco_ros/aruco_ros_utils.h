@@ -2,12 +2,12 @@
 #define ARUCO_ROS_UTILS_H
 
 #include <aruco/aruco.h>
-#include <sensor_msgs/CameraInfo.h>
-#include <sensor_msgs/Image.h>
+#include <sensor_msgs/msg/camera_info.hpp>
+#include <sensor_msgs/msg/image.hpp>
 #include <tf/transform_datatypes.h>
 #include <tf2/LinearMath/Transform.h>
 #include <tf2/transform_datatypes.h>
-#include <visualization_msgs/Marker.h>
+#include <visualization_msgs/msg/marker.hpp>
 
 namespace aruco_ros
 {

@@ -40,7 +40,7 @@
 #include <ros/ros.h>
 #include <image_transport/image_transport.h>
 #include <cv_bridge/cv_bridge.h>
-#include <sensor_msgs/image_encodings.h>
+#include <sensor_msgs/msg/image_encodings.h>
 #include <aruco_ros/aruco_ros_utils.h>
 #include <tf/transform_broadcaster.h>
 #include <tf/transform_listener.h>

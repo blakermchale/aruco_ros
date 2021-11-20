@@ -1,27 +1,28 @@
 <?xml version="1.0"?>
-<package format="2">
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
   <name>aruco_ros</name>
-  <version>2.1.1</version>
-  <description>
-    The ARUCO Library has been developed by the Ava group of the Univeristy of Cordoba(Spain).
-    It provides real-time marker based 3D pose estimation using AR markers.
-  </description>
-  <maintainer email="bence.magyar.robotics@gmail.com">Bence Magyar</maintainer>
-  <license>BSD</license>
-  <url type="website">http://www.uco.es/investiga/grupos/ava/node/26</url>
-  <author email="rmsalinas@uco.es">Rafael Muñoz Salinas</author>
-  <author email="bence.magyar@pal-robotics.com">Bence Magyar</author>
+  <version>0.0.0</version>
+  <description>TODO: Package description</description>
+  <maintainer email="mchale.blake@gmail.com">bmchale</maintainer>
+  <license>TODO: License declaration</license>
 
-  <buildtool_depend>catkin</buildtool_depend>
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
 
   <depend>cv_bridge</depend>
-  <depend>dynamic_reconfigure</depend>
   <depend>geometry_msgs</depend>
   <depend>image_transport</depend>
-  <depend>roscpp</depend>
+  <depend>rclcpp</depend>
   <depend>tf</depend>
   <depend>aruco</depend>
   <depend>aruco_msgs</depend>
   <depend>sensor_msgs</depend>
   <depend>visualization_msgs</depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
 </package>
